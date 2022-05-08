@@ -10,14 +10,6 @@
 (function ($) {
   'use strict'
 
-  setTimeout(function () {
-    if (window.___browserSync___ === undefined && Number(localStorage.getItem('SamyamShrestha:MessageShowed')) < Date.now()) {
-      localStorage.setItem('SamyamShrestha:MessageShowed', (Date.now()) + (15 * 60 * 1000))
-      // eslint-disable-next-line no-alert
-      alert('You load SamyamShrestha\'s project, \nthis file is created by Samyam Shrestha!')
-    }
-  }, 1000)
-
   function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1)
   }

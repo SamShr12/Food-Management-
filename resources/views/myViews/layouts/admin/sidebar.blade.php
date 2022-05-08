@@ -13,9 +13,8 @@ $admin = AdminController::admin();
 
 <aside class="main-sidebar elevation-4">
   <!-- Brand Logo -->
-  <a href="" class="brand-link">
-    <img src="https://images.clipartlogo.com/files/istock/previews/1021/102137179-map-pointer-with-restaurant-icon.jpg" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-    <span class="brand-text font-weight-light bd" style="font-family: 'Pacifico', cursive; font-size: 1.25em;">Restuarant</span>
+  <a href="" class="">
+    <p class="font-weight-light bd" style="font-family: 'Arial', sans-serif; font-size: 1.25em; margin-left: 80px;">GoodLife</p>
   </a>
 
   <!-- Sidebar -->
@@ -24,7 +23,6 @@ $admin = AdminController::admin();
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
       <div class="image">
         @foreach ($admin as $a)
-        <img src="{{asset('assets/upload/admin/'.$a->image)}}" class="img-circle elevation-2" alt="User Image">
         @endforeach
       </div>
       <div class="info">
@@ -32,7 +30,7 @@ $admin = AdminController::admin();
         <?php
         $firstname = explode(" ", $a->name);
         ?>
-        <a href="#" class="d-block" style="font-family: 'Pacifico', cursive;">{{$firstname[0]}}</a>
+        <a href="#" class="d-block" style="font-family: 'Arial', sans-serif;">{{$firstname[0]}}</a>
         @endforeach
       </div>
     </div>
@@ -70,7 +68,7 @@ $admin = AdminController::admin();
           <a href="staff" class="nav-link">
             <i class="nav-icon fas fa-users"></i>
             <p style="font-size: 1.1em;">
-              Staff
+              Employee
             </p>
           </a>
         </li>

@@ -180,8 +180,8 @@
     </div>
 
     <div class="body-section">
-      <p>&copy; Copyright 2021 - Company Name. All rights reserved.
-        <a href="#" class="float-right">company</a>
+      <p>&copy; Copyright 2021 - Samyam Shrestha. All rights reserved.
+        <a href="#" class="float-right">Sam</a>
       </p>
     </div>
   </div>

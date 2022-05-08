@@ -9,9 +9,8 @@ $cart = CustomerController::cartCount();
 
 <aside class="main-sidebar elevation-4">
   <!-- Brand Logo -->
-  <a href="#" class="brand-link">
-    <img src="https://images.clipartlogo.com/files/istock/previews/1021/102137179-map-pointer-with-restaurant-icon.jpg" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-    <span class="brand-text font-weight-light" style="font-family: 'Pacifico', cursive;">Restuarent</span>
+  <a href="#" class="" style="font-size: 22px; padding-top: 20px;">
+    <p class="yes" style="font-family: Arial, 'Times New Roman'; margin-left: 60px;">GoodLife</p>
   </a>
 
   <!-- Sidebar -->
@@ -28,7 +27,7 @@ $cart = CustomerController::cartCount();
         <?php
         $firstname = explode(" ", $c->name);
         ?>
-        <a href="#" style="font-family: 'Pacifico', cursive;" class="d-block">{{$firstname[0]}}</a>
+        <a href="#" style="font-family: 'Arial', 'Times New Roman';" class="d-block">{{$firstname[0]}}</a>
         @endforeach
       </div>
     </div>
